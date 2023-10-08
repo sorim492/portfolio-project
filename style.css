@@ -1,8 +1,9 @@
 :root{
     --branding-color: #8a6edf;
+    --secondary-color: #f9f7fe;
 }
 body{
-    background-color: rgba(253, 236, 215, 0.769);
+    background-color: var(--secondary-color);
 }
 
 h1{
