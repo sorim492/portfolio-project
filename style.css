@@ -1,28 +1,36 @@
 :root{
     --branding-color: #8a6edf;
     --secondary-color: #f9f7fe;
+    --headinf-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Young Serif', serif;
 }
 body{
-    background-color: var(--secondary-color);
+    font-family: var(--default-font-family);
 }
 
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: var(--headinf-font-family);
     font-weight: bold;
     font-size: 50px;
-    text-align: center;
 }
 
 h2{
-    text-align: center;
+    font-family: var(--headinf-font-family);
 }
 
 p{
-    font-family: 'Young Serif', serif;
+    text-align: center;
+    font-weight: normal;
 }
 
 footer{
     text-align: center;
+}
+
+.header{
+    padding: 20px 10px;
+    text-align: center;
+    background-color: var(--secondary-color);
 }
 
 .contact-button{
