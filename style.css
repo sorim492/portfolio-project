@@ -29,6 +29,35 @@ footer{
     text-align: center;
 }
 
+footer a{
+    color: var(--branding-color);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+}
+
+footer a:hover{
+    color: #430ce9;
+}
+
+footer i{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    transition: all 20ms ease-in-out;
+}
+
+footer i:hover{
+    color: #430ce9;
+}
+
+.footer-email{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .header{
     padding: 20px 10px;
     text-align: center;
