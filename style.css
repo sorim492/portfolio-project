@@ -147,6 +147,17 @@ footer .contact-box p{
     color: var(--branding-color);
 }
 
+.videos{
+display: block;
+margin: 0 auto;
+padding: 10px;
+}
+
+.imagen-w{
+    display: block;
+    margin: 0 auto;
+}
+
 @media(max-width:980px){
     h1{
         font-size: 30px;
